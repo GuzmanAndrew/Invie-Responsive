@@ -1,0 +1,15 @@
+body{
+  background: peru;
+  font-family: sans-serif;
+}
+
+.post{
+  border: 10px solid red;
+  background: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.post{
+  transition: 3s opacity ease;
+}

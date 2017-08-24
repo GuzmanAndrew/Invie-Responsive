@@ -1,0 +1,112 @@
+header{
+  background: #273B47;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+body{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav a:hover{
+  box-shadow: inset 0px 5px 0px red;
+}
+
+nav{
+  height: inherit;
+}
+
+nav ul{
+  margin: 0;
+  display: flex;
+  padding-right: 20px;
+  height: inherit;
+}
+
+nav li{
+  list-style: none;
+  margin-right: 10px;
+  color: white;
+  height: inherit;
+}
+
+nav li:last-child:after{
+  display: none;
+}
+
+nav li:after{
+  content: "|";
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  height: inherit;
+  display: block;
+  line-height: 50px;
+}
+
+h1{
+  margin: 0;
+  font-weight: 600;
+}
+
+#logo{
+  padding-left: 20px;
+}
+
+.portada{
+  position: relative;
+  margin-left: 152px;
+}
+
+.autor img{
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.autor{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+  border-top: 1px solid grey;
+}
+
+.portada .description{
+  background: rgba(255, 255, 255, .8);
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  padding: 20px;
+}
+
+.blo{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.blo-items{
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item-blog{
+  width: 300px;
+}
+
+.blo-items h3{
+  font-weight: 600;
+  margin: 10px 0;
+}
